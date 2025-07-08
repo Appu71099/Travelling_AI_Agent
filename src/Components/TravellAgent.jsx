@@ -4,7 +4,7 @@ import { MapPin, Calendar, Heart, Plane, Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-
+   
 export default function TravellAgent() {
 
     const MySwal = withReactContent(Swal);
