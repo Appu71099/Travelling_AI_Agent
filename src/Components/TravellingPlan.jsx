@@ -4,7 +4,7 @@ import { Blocks } from 'react-loader-spinner';
 
 export default function TravellingPlan() {
 
-    const [itineraryData, setItineraryData] = useState({});
+    // const [itineraryData, setItineraryData] = useState({});
     const [days, setDays] = useState([]);
     const [currency, setCurrency] = useState("");
     const [totalCost, setTotalCost] = useState({});
@@ -24,7 +24,7 @@ export default function TravellingPlan() {
             .then(response => {
                 if (response && response.data && response.data.itinerary) {
                     console.log('Itinerary data fetched successfully:', response.data.itinerary);
-                    setItineraryData(response);
+                    // setItineraryData(response);
 
                     setDays(response.data.itinerary.days);
                     console.log('Days:', response.data.itinerary.days);

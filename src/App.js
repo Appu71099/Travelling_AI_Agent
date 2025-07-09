@@ -1,6 +1,6 @@
 
 import './App.css';
-import { MapPin, Calendar, Heart, Plane, Search } from 'lucide-react';
+
 import TravellAgent from './Components/TravellAgent';
 import TravellingPlan from './Components/TravellingPlan';
 import { Routes, Route } from 'react-router-dom';
