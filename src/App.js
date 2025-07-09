@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { MapPin, Calendar, Heart, Plane, Search } from 'lucide-react';
 import TravellAgent from './Components/TravellAgent';
